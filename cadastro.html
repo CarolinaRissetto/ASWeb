@@ -1,0 +1,55 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="cadastro.css" />
+  <title>cadastro</title>
+</head>
+
+<body>
+  <div class="img corpo">
+    <form action="cadastro.php" method="post">
+      Nome completo:
+      <input class="dados-usuario" type="text" id="NomeCompleto" size="8" maxlength="20" name="nomecompleto" required />
+      <br /><br />
+      Endereço:
+      <input class="dados-usuario" type="text" id="Endereco" size="8" maxlength="20" name="endereco" required />
+      <br /><br />
+      Cidade:
+      <input class="dados-usuario" type="text" id="Cidade" size="8" maxlength="20" name="cidade" required />
+      <br /><br />
+      Estado:
+      <select id="Estado" class="Estado" name="estado" required>
+        <option value="RiodeJaneiro" selected>Rio de Janeiro </option>
+        <option value="RioGrandeDoSul">Rio Grande do Sul</option>
+        <option value="SantaCatarina">Santa Catarina</option>
+      </select>
+      <br /><br />
+      --------------------------------------------------------------
+      <br /><br />
+      Nome de usuário:
+      <input class="dados-usuario" type="text" id="NomeDeUsuario" size="8" maxlength="20" name="nomedeusuario"
+        required />
+      <br /><br />
+      Senha:
+      <input class="dados-usuario" type="password" id="senha" size="8" maxlength="20" name="senha" required />
+      <br /><br />
+      Tipo de Usuario
+      <select class="dados-usuario" id="tipo" name="tipo_usuario" required>
+        <option value="">Selecione</option>
+        <option value="comum">Usuario Comum</option>
+        <option value="administrador">Administrador</option>
+      </select><br />
+      <br /><br />
+
+
+      <div class="botoes">
+        <p>
+          <input class="continuar" type="submit" name="entrar" value="Fazer cadastro" />
+        </p>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>

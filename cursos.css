@@ -1,0 +1,89 @@
+html, body {
+    margin: 0;
+ }
+
+form>div{
+    height: 55px;
+    width: 150px;
+    border: 1px solid #369bbf;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #369bbf;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.titulo {
+    position: fixed;
+    top: 10%;
+    right: 4%;
+    padding: 40px;
+    text-decoration: overline;
+    color: white;
+}
+
+.img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(criatividade1.jpg);
+}
+
+.corpo{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+
+ .ativar{
+    height: 55px;
+    width: 150px;
+    border: 1px solid #ebd82d;
+    border-radius: 5px;
+    position: fixed;
+    background-color:#ebd82d;
+    font-size: 20px;
+    bottom: 10%;
+    right: 9%;
+ }
+
+ .ativos{
+    height: 55px;
+    width: 150px;
+    border: 1px solid #ebd82d;
+    border-radius: 5px;
+    position: fixed;
+    background-color:#ebd82d;
+    font-size: 20px;
+    bottom: 20%;
+    right: 9%;
+ }
+
+ .cadastrar {
+    height: 55px;
+    width: 170px;
+    border: 1px solid #ebd82d;
+    border-radius: 5px;
+    position: fixed;
+    background-color:#ebd82d;
+    font-size: 20px;
+    top: 10%;
+    left: 10%;
+ }
+
+ 
+ .deletar {
+    height: 55px;
+    width: 170px;
+    border: 1px solid #ebd82d;
+    border-radius: 5px;
+    position: fixed;
+    background-color:#ebd82d;
+    font-size: 20px;
+    top: 20%;
+    left: 10%;
+ }
